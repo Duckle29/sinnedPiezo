@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:piezothing-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -115,4 +116,28 @@ Text Label 5525 2700 0    50   ~ 0
 K2
 Wire Wire Line
 	5300 2450 5375 2450
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5C75539A
+P 5100 1525
+F 0 "J?" V 5066 1337 50  0000 R CNN
+F 1 "con" V 4975 1337 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 5100 1525 50  0001 C CNN
+F 3 "~" H 5100 1525 50  0001 C CNN
+	1    5100 1525
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 1725 5100 1775
+Wire Wire Line
+	5100 1775 4950 1775
+Wire Wire Line
+	4950 1775 4950 2125
+Connection ~ 4950 2125
+Wire Wire Line
+	5200 1725 5200 1775
+Wire Wire Line
+	5200 1775 5525 1775
+Wire Wire Line
+	5525 1775 5525 2125
 $EndSCHEMATC
